@@ -1,0 +1,55 @@
+[
+  {
+    "station_id": "LINE-A-QC-01",
+    "work_order_id": "WO-2048",
+    "decision": "accept",
+    "counted_quantity": 3,
+    "expected_quantity": 3,
+    "defects": [],
+    "model_versions": {
+      "detector": "opencv-contour-1.0.0",
+      "classifier": "defect-cnn-0.1.0",
+      "ocr": "template-glyph-1.0.0",
+      "face": "hog-cosine-1.0.0"
+    }
+  },
+  {
+    "station_id": "LINE-A-QC-01",
+    "work_order_id": "W02048",
+    "decision": "review",
+    "counted_quantity": 3,
+    "expected_quantity": 3,
+    "defects": [],
+    "model_versions": {
+      "detector": "opencv-contour-1.0.0",
+      "classifier": "defect-cnn-0.1.0",
+      "ocr": "template-glyph-1.0.0",
+      "face": "hog-cosine-1.0.0"
+    }
+  },
+  {
+    "station_id": "LINE-A-QC-01",
+    "work_order_id": "WO-3370",
+    "decision": "reject",
+    "counted_quantity": 3,
+    "expected_quantity": 3,
+    "defects": [
+      {
+        "label": "scratch",
+        "score": 0.9802312254905701,
+        "bbox": {
+          "x": 20,
+          "y": 120,
+          "width": 95,
+          "height": 73
+        }
+      }
+    ],
+    "model_versions": {
+      "detector": "opencv-contour-1.0.0",
+      "classifier": "defect-cnn-0.1.0",
+      "ocr": "template-glyph-1.0.0",
+      "face": "hog-cosine-1.0.0"
+    }
+  }
+]
